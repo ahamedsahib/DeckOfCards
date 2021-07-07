@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 
 namespace DeckOfCards
 {
@@ -7,6 +9,8 @@ namespace DeckOfCards
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Deck Of Cards Program");
+            Cards cards = new Cards();
+            cards.DistributeCards();
         }
     }
 }
